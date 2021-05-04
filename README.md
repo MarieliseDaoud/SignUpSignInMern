@@ -1,4 +1,4 @@
-# MERN-Stack-CRUD
+# README
 
 ### **After each pull from master**
 1. Open two terminals one for client one for server 
