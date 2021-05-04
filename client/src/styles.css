@@ -1,0 +1,400 @@
+body {
+    height: 100vh;
+}
+
+.headerbtn {
+    font-weight: 500;
+    color: #98B6EC;
+    border-width: 2px;
+    border-color: #98B6EC;
+}
+
+.card-header span {
+    color: white;
+}
+
+.cardlocation {
+    color: #98B6EC;
+}
+
+.postbtn {
+    background-color: #98B6EC;
+    border-color: #98B6EC;
+    color: white;
+}
+
+.postbtn:hover {
+    color: white;
+}
+
+.applybtn {
+    background-color: #98B6EC;
+    border-color: #98B6EC;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.applybtn:hover {
+    color: white;
+}
+
+.searchjobbtn:hover {
+    background-color: white;
+    color: #98B6EC;
+    border-color: #98B6EC;
+}
+
+.title-header {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.btn-industry {
+    width: 100%;
+    border-radius: 30px;
+    border-color: #1E1E1E;
+    color: #1E1E1E;
+}
+
+
+/*-- Workflow Section CSS --*/
+
+#Workflow {
+    padding: 70px 0px 80px;
+    /*background-color: #98b6ec;*/
+    background-color: rgba(152, 182, 236, .2);
+    color: black;
+}
+
+#Workflow .work-process::after {
+    content: "";
+    position: absolute;
+    background: #f1f3f5;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+#Workflow .work-process:hover::after {
+    background: rgb(233 248 255/22%);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+#Workflow .work-process {
+    background-color: #fff;
+    padding: 40px 15px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    box-shadow: 0px 30px 0px -20px #ffffff;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgba(152, 182, 236, .2);
+    text-align: center;
+}
+
+#Workflow .work-process i {
+    margin: 0 auto;
+    display: table;
+    background-color: #fff3f1;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    line-height: 70px;
+}
+
+#Workflow .work-process h3 {
+    margin: 15px 0px;
+}
+
+#Workflow .work-process h3 a {
+    font-size: 20px;
+    color: black;
+}
+
+#Workflow .work-process p {
+    color: black;
+}
+
+.tab-content {
+    width: 100% !important;
+}
+
+.form-register {
+    max-width: 530px;
+    padding: 15px;
+}
+
+.form-horizontal {
+    max-width: 530px;
+    padding: 15px;
+    margin-top: 50px;
+    /*border-radius: 0.3em;*/
+    /*border-width: 10px;*/
+    /*border-color: #98B6EC;*/
+}
+
+.form-submit {
+    max-width: 530px;
+}
+
+.registerimg {
+    margin-top: 50px;
+}
+
+.form-horizontal h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.footer-dark {
+    position: sticky;
+    top: 100%;
+}
+
+@media screen and (min-width: 800px) {
+    .footer-dark {
+        margin-top: 50px;
+        padding: 50px 0;
+        color: #f0f9ff;
+        background-color: #282d32;
+        width: 100% !important;
+    }
+}
+
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width:767px) {
+    .form-submit {
+        max-width: 530px;
+        margin-top: 50px;
+    }
+    .footer-dark .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .socialmedia .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .footer-dark {
+        margin-top: 150px;
+        padding: 50px 0;
+        color: #f0f9ff;
+        background-color: #282d32;
+    }
+}
+
+.footer-dark .item.text {
+    margin-bottom: 36px;
+}
+
+.socialmedia .item.text {
+    margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item.text {
+        margin-bottom: 0;
+    }
+    .socialmedia .item.text {
+        margin-bottom: 0;
+    }
+}
+
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.socialmedia .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+    text-align: center;
+}
+
+.socialmedia .item.social {
+    text-align: center;
+}
+
+@media (max-width:991px) {
+    .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .socialmedia .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .title-header {
+        font-size: 40px;
+    }
+    .subtitle {
+        font-size: 35px;
+    }
+}
+
+.footer-dark .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.socialmedia .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #98b6ec;
+    margin: 0 8px;
+    color: #98b6ec;
+    opacity: 0.75;
+}
+
+.footer-dark .item.social>a:hover {
+    opacity: 0.9;
+}
+
+.socialmedia .item.social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.error_show {
+    color: #98b6ec;
+    position: relative;
+}
+
+.error_hide {
+    display: none;
+}
+
+@media(min-width:800px) {
+    .link {
+        margin-left: 25%;
+    }
+}
+
+.mt-6 {
+    margin-top: 100px;
+}
+
+.mb-6 {
+    margin-bottom: 100px;
+}
+
+.loginbtn {
+    background-color: #98b6ec;
+}
+
+.btn-block {
+    display: block;
+    width: 90%;
+}
+
+a {
+    color: #98b6ec;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+    color: #98b6ec;
+    text-decoration: none;
+}
+
+@media(min-width:800px) {
+    .form-horizontal {
+        max-width: 530px;
+        padding: 15px;
+        /*border-radius: 0.3em;*/
+        /*border-width: 10px;*/
+        /*border-color: #98B6EC;*/
+        margin-top: 150px;
+    }
+    .registerimg {
+        margin-top: 50px;
+    }
+    .link {
+        margin-left: 25%;
+    }
+}
+
+@media (max-width:580px) {
+    .applybtn {
+        margin-bottom: 0px;
+    }
+    .loginimg {
+        display: none;
+    }
+    .title-header {
+        font-size: 40px;
+    }
+    .subtitle {
+        font-size: 35px;
+    }
+}
