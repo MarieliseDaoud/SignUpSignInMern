@@ -15,9 +15,7 @@ class Signup extends Component {
        <div className="container">
        
        <div className="row justify-content-center registerimg">
-       <Link to="/">
-                            <img src={logo} alt="Work It Up" width="300"/>
-                             </Link>
+       <Link to="/"> <img src={logo} alt="Work It Up" width="300"/></Link>
        
        </div>
        
@@ -60,7 +58,7 @@ class Signup extends Component {
                    </div>
                    <div className="form-group">
                        <div className="col-sm-12">
-                           <input type="email" id="email" placeholder="Email" className="form-control" name= "email"/>
+                           <input type="email" id="email" placeholder="Email" className="form-control" name= "email" required/>
                            <span className="error_hide" id="error_email">Invalid email format</span>
                        </div>
                    </div>
@@ -74,7 +72,7 @@ class Signup extends Component {
                    <div className="form-group">
                        <div className="col-sm-12">
                        <label for="demo_overview_minimal">Select sector</label>
-                       <select id="demo_overview_minimal" className="form-control" data-role="select-dropdown" data-profile="minimal">
+                       <select id="demo_overview_minimal" className="form-control" data-role="select-dropdown" data-profile="minimal" required>
                            <option value="Accountant">Accountant</option>
                            <option value="SalesExecutive">Sales Executive</option>
                            <option value="GraphicDesigner">Graphic Designer</option>
@@ -92,13 +90,13 @@ class Signup extends Component {
        
                    <div className="form-group">
                        <div className="col-sm-12">
-                           <input type="password" id="password" name="password" placeholder="Password" className="form-control"/>
+                           <input type="password" id="password" name="password" placeholder="Password" className="form-control" required/>
                            <span className="error_hide" id="error_pass">Should be 8+ letters with a number and a special character</span>
                        </div>
                    </div>
                    <div className="form-group">
                        <div className="col-sm-12">
-                           <input type="password" id="confPassword" placeholder="Confirm Password" className="form-control"/>
+                           <input type="password" id="confPassword" placeholder="Confirm Password" className="form-control" required/>
                            <span className="error_hide" id="error_conf_pass">Passwords do not match</span>
                        </div>
                    </div>

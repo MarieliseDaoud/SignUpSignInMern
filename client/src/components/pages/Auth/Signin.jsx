@@ -3,6 +3,7 @@ import Footer from '../../modules/Footer/Footer';
 import login from '../../../images/login.svg';
 import logo from '../../../images/WorkIt.svg';
 import {Link} from 'react-router-dom';
+import {Avatar, Button, Paper, Grid, Typography, Container} from '@material-ui/core';
  
 class Signin extends Component {
     render() {
